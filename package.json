@@ -1,0 +1,31 @@
+{
+  "name": "Starwars",
+  "version": "1.0.0",
+  "description": "planet details",
+  "main": "src/main.js",
+  "author": "Japarsathik A",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-hmre": "^1.1.1",
+    "webpack": "^4.9.1",
+    "webpack-cli": "^2.1.4",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server --progress --inline --hot"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "lodash": "^4.17.10",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "suggestion-react-input-search": "^1.2.1"
+  }
+}
